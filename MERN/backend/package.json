@@ -1,0 +1,29 @@
+{
+  "name": "mern-backend",
+  "version": "1.0.0",
+  "description": "This is a simple Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "backend",
+    "node",
+    "js"
+  ],
+  "author": "Biraj Karki",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status": "^1.7.3",
+    "mongoose": "^8.0.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
